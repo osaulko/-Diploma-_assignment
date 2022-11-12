@@ -57,7 +57,7 @@ public abstract class BasePage {
         driver.get(url);
     }
 
-    protected String getPageUrl() {
+    protected String getPageUrl(String s) {
         log.debug("Get page url");
         return driver.getCurrentUrl();
     }

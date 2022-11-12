@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="url" value="https://litnet.com/"/>
+  <test thread-count="1" parallel="tests" name="Litnet Test(failed)" verbose="0">
+    <classes>
+      <class name="First_Test.test">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- First_Test.test -->
+    </classes>
+  </test> <!-- Litnet Test(failed) -->
+</suite> <!-- Failed suite [test] -->

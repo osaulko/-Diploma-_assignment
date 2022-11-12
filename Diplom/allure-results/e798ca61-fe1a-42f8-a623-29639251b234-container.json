@@ -1,0 +1,1 @@
+{"uuid":"e798ca61-fe1a-42f8-a623-29639251b234","name":"Diplom","children":["324c2b21-4615-4ea8-a765-3308bc2e213c"],"befores":[{"name":"preconditions","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1668265034008,"stop":1668265050757}],"afters":[],"start":1668265033342,"stop":1668265074324}
