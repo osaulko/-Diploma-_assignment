@@ -5,14 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeeefbcb-2c1d-454e-a5b8-a6b972a5f156" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/litnet.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/CreateAndRemoveEssence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/First_Test/PositiveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/baseObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/baseObjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/litnet.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/litnet.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/First_Test/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Litnet Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Litnet Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/litnet.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/litnet.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/baseObjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/baseObjects/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/litnet/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/litnet/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/litnet/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/litnet/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-First_Test.test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/Litnet Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test/Litnet Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test/Litnet Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/First_Test/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,41 +78,64 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2HRWddgsArJfjCYNf7T5oQB8GPV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/hugo/Desktop/проекты/Diplom/Diplom/src/test/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hugo/Desktop/проекты/Diplom/Diplom/src/test/resources/Test.xml&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hugo\Desktop\проекты\Diplom\Diplom\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/hugo/Desktop/проекты/Diplom/Diplom/src/test/resources/Test.xml (1)">
-    <configuration name="C:/Users/hugo/Desktop/проекты/Diplom/Diplom/src/test/resources/Test.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PositiveTests ">
+    <configuration name="C:/Users/hugo/Desktop/проекты/Diplom/Diplom/src/test/resources/Test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Diplom" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="First_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/Test.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Dconfig=litnet" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/hugo/Desktop/проекты/Diplom/Diplom/src/test/resources/Test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveTests " type="TestNG" temporary="true">
       <module name="Diplom" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -80,6 +149,69 @@
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Diplom" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="First_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="First_Test" />
+      <option name="MAIN_CLASS_NAME" value="First_Test.PositiveTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-Dconfig" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Diplom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="First_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="First_Test" />
+      <option name="MAIN_CLASS_NAME" value="First_Test.PositiveTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveTests.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Diplom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="First_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="First_Test" />
+      <option name="MAIN_CLASS_NAME" value="First_Test.PositiveTests" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -103,55 +235,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Diplom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="First_Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="First_Test" />
-      <option name="MAIN_CLASS_NAME" value="First_Test.test" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Diplom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="First_Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="First_Test" />
-      <option name="MAIN_CLASS_NAME" value="First_Test.test" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/hugo/Desktop/проекты/Diplom/Diplom/src/test/resources/Test.xml (1)" />
+      <item itemvalue="TestNG.PositiveTests" />
+      <item itemvalue="TestNG.PositiveTests.loginTest" />
+      <item itemvalue="TestNG.PositiveTests " />
       <item itemvalue="TestNG.gfbn" />
-      <item itemvalue="TestNG.C:/Users/hugo/Desktop/проекты/Diplom/Diplom/src/test/resources/Test.xml" />
-      <item itemvalue="TestNG.test.loginTest" />
-      <item itemvalue="TestNG.test (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/hugo/Desktop/проекты/Diplom/Diplom/src/test/resources/Test.xml (1)" />
-        <item itemvalue="TestNG.gfbn" />
+        <item itemvalue="TestNG.PositiveTests " />
+        <item itemvalue="TestNG.PositiveTests" />
         <item itemvalue="TestNG.C:/Users/hugo/Desktop/проекты/Diplom/Diplom/src/test/resources/Test.xml" />
-        <item itemvalue="TestNG.test (1)" />
-        <item itemvalue="TestNG.test.loginTest" />
+        <item itemvalue="TestNG.PositiveTests" />
+        <item itemvalue="TestNG.PositiveTests.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,5 +261,19 @@
       <updated>1668248464586</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Diplom$C__Users_hugo_Desktop__Diplom_Diplom_src_test_resources_Test_xml__1_.ic" NAME="$PROJECT_DIR$/src/test/resources/Test.xml (1) Coverage Results" MODIFIED="1668270851569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
