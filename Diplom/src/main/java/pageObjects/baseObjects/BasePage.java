@@ -90,7 +90,7 @@ public abstract class BasePage {
         return findElement(locator).getText();
     }
 
-    protected String getText(WebElement webElement) {
+    protected static String getText(WebElement webElement) {
         log.debug("I'm get text by  :: " + webElement);
         return webElement.getText();
     }
