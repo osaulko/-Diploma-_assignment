@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="PositiveTests">
+<suite name="PositiveTests" >
 
     <parameter name="url" value="https://litnet.com/"/>
 
-    <test name="Litnet Test">
+
+    <test name="Create and remove test">
         <classes>
             <class name="First_Test.PositiveTests"/>
+<!--            <class name="First_Test.NegativeTest"/>-->
         </classes>
     </test>
+
 </suite>

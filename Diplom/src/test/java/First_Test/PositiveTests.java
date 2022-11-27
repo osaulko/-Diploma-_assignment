@@ -1,13 +1,10 @@
 package First_Test;
-import org.testng.Assert;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pageObjects.baseObjects.BaseTest;
-import pageObjects.litnet.CreateEssence;
-import pageObjects.litnet.HomePage;
-import pageObjects.litnet.LoginPage;
-import pageObjects.litnet.RemoveEssence;
+import pageObjects.litnet.*;
 
 public class PositiveTests extends BaseTest {
 
@@ -24,29 +21,37 @@ public class PositiveTests extends BaseTest {
                 .clickLogin();
     }
 
-    @Test
+    @Test (priority = 3)
+    public void positiveTestTwo (){
+        new PopUpWindow()
+                .clickBell()
+                .checkTableIsDisplayed2();
+    }
+
+    @Test (priority = 1)
     public void positiveTestThree (){
         new CreateEssence()
-                .clickLitnetBtn()
                 .clickFantasyGenre()
                 .clickBookOne()
                 .clickAddInLibrary()
-                .clickMyLibrary();
+                .clickMyLibrary()
+                .VerifyLibrary();
     }
 
-    @Test
-    public void positiveTestFour(){
-        String bookName = "Нищенка в Королевской Академии магии. Зимняя практика 2";
-        new RemoveEssence();
-        String newBook = RemoveEssence.enterBookName(bookName);
-        Assert.assertEquals(newBook, "Нищенка в Королевской Академии магии. Зимняя практика 2");
+    @Test (priority = 2)
+    public void positiveTestFour (){
+        new RemoveEssence()
+                .scrollLibrary()
+                .clickMove()
+                .clickRemoveFromLibrary()
+                .VerifyLibrary();
     }
 
-//    @Test
-//    public void positiveTestFour (){
-//        new CreateEssence()
-//                .clickMyLibrary()
-//                .clickMove()
-//                .clickRemoveFromLibrary();
-//    }
+    @Test (priority = 3)
+    public void testSix(){
+        new RemoveEssence()
+                .clickEditProfile();
+        new ProfileEditing()
+                .clickChangePhotoBtn();
+    }
 }

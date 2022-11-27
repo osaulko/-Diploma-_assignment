@@ -1,40 +1,33 @@
 package pageObjects.litnet;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import pageObjects.baseObjects.BasePage;
 
-import static driver.DriverManager.getDriver;
-
 public class RemoveEssence extends BasePage {
 
-    //private final By myLibrary = By.linkText("Моя библиотека");
+    private final By myLibrary = By.linkText("Моя библиотека");
 
-    private final By move = By.xpath("//*[class='btn btn-default btn-xs dropdown-toggle' and text() = 'Переместить']//]//ancestor::div[@class='lib-books-list'");
+    private final By move = By.xpath("/html/body/div[3]/div/div/div[2]/div[6]/div/div[2]/div[2]/button");
 
     private final By removeFromLibrary = By.xpath("/html/body/div[3]/div/div/div[2]/div[6]/div[1]/div[2]/div[2]/ul/li[3]/a");
 
-    private final By title = By.tagName("h4");
+    private final By title = By.cssSelector("[class=no_items_found]");
 
-    public static WebElement getElementProduct(String bookName) {
-        return getDriver().findElement(By.xpath("//*[class = 'book-title' and text() = '" + bookName + "']//ancestor::div[@class='lib-books-list']"));
+    private final By editProfile = By.cssSelector("#w1 > li:nth-child(2) > a");
+
+    //private final By scroll = By.id("rental-books-widget-hide-modal");
+
+    //private final By scroll = By.cssSelector("[class='wrap']>[class='content-wrapper']>[class='container']>[class='content']");
+
+
+    public RemoveEssence clickMyLibrary (){
+        click(myLibrary);
+        return this;
     }
-
-    public static WebElement getBookName(String bookName){
-        return getElementProduct(bookName).findElement(By.className("book-title"));
-    }
-
-    public static String enterBookName(String bookName) {
-        return getText(getBookName(bookName));
-    }
-
-
-
-//    public RemoveEssence clickMyLibrary (){
-//        click(myLibrary);
-//        return this;
-//    }
 
     public RemoveEssence clickMove () {
         click(move);
@@ -46,9 +39,21 @@ public class RemoveEssence extends BasePage {
         return this;
     }
 
-//    public RemoveEssence VerifyLibrary (){
-//        Assert.assertEquals(enterBookName, "Нищенка в Королевской Академии магии. Зимняя практика 2");
-//        return this;
-//    }
+    public RemoveEssence clickEditProfile(){
+        click(editProfile);
+        return this;
+    }
+
+    public RemoveEssence VerifyLibrary (){
+        Assert.assertEquals(getText(title), "В библиотеке пока пусто");
+        return this;
+    }
+
+    public RemoveEssence scrollLibrary(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebElement Element = driver.findElement(move);
+        js.executeScript("window.scrollBy(0,500)");
+        return this;
+    }
 }
 
