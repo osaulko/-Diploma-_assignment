@@ -15,7 +15,6 @@ public class DataExceedingAllowable extends BasePage {
 
     private final By verifyLimitValues = By.cssSelector("[class='col-xs-4']>[class='form-group field-editprofileform-site has-error']>[class='help-block']");
 
-
     public DataExceedingAllowable clickAccount(){
         click(account);
         return this;
@@ -36,23 +35,14 @@ public class DataExceedingAllowable extends BasePage {
         enter(personalSite , "12345678901234567890123456789012345678901");
         return this;
     }
-//    public DataExceedingAllowable verifyLimitValues(){
-//        Assert.assertTrue(elementNotExist(verifyLimitValues));
-//        return this;
-//    }
-//
-//    public DataExceedingAllowable verifyLimitValuesNormal(){
-//        Assert.assertTrue(elementNotExist(verifyLimitValues));
-//        return this;
-//    }
-//
+
     public DataExceedingAllowable verifyLimitValues(){
         Assert.assertEquals(getText(verifyLimitValues),"Значение «Личный сайт» должно содержать максимум 40 символов.");
         return this;
     }
 
     public DataExceedingAllowable verifyLimitValuesNormal(){
-        Assert.assertNull(getText(verifyLimitValues));
+        Assert.assertEquals(getText(verifyLimitValues),"");
         return this;
     }
 }

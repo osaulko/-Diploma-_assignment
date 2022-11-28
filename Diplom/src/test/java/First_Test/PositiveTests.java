@@ -21,14 +21,14 @@ public class PositiveTests extends BaseTest {
                 .clickLogin();
     }
 
-    @Test (priority = 3)
+    @Test (priority = 1)
     public void positiveTestTwo (){
         new PopUpWindow()
                 .clickBell()
                 .checkTableIsDisplayed2();
     }
 
-    @Test (priority = 1)
+    @Test (priority = 2)
     public void positiveTestThree (){
         new CreateEssence()
                 .clickFantasyGenre()
@@ -38,7 +38,7 @@ public class PositiveTests extends BaseTest {
                 .VerifyLibrary();
     }
 
-    @Test (priority = 2)
+    @Test (priority = 3)
     public void positiveTestFour (){
         new RemoveEssence()
                 .scrollLibrary()
@@ -47,7 +47,7 @@ public class PositiveTests extends BaseTest {
                 .VerifyLibrary();
     }
 
-    @Test (priority = 3)
+    @Test (priority = 4)
     public void testSix(){
         new RemoveEssence()
                 .clickEditProfile();

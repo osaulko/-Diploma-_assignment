@@ -1,21 +1,24 @@
 package pageObjects.litnet;
 
-import org.openqa.selenium.By;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import pageObjects.baseObjects.BasePage;
 
-import java.awt.*;
-import java.awt.image.ImageObserver;
-import java.awt.image.ImageProducer;
-import java.security.Key;
+import java.util.concurrent.TimeUnit;
 
 public class ProfileEditing extends BasePage {
 
-    private final By changePhotoBtn = By.id("avatar-js-upload_file_action_btn");
+    private final By loadPhoto = By.id("avatar-js-upload-btn");
+    private final By pageWithPhoto = By.cssSelector("#avatar-image-modal > div > div");
+    private final By clickSaveBtn = By.id("avatar-submit-button");
 
     public ProfileEditing clickChangePhotoBtn(){
-        //click(changePhotoBtn);
-        driver.findElement(changePhotoBtn).sendKeys("Load_File.jpg");
-        //System.getProperty(("user.dir")+"Load_File.jpg");
+        driver.findElement(loadPhoto).sendKeys("C:\\Users\\hugo\\Desktop\\проекты\\Diplom\\Diplom\\src\\Load_File.jpg");//Переделаю через проперти
+        driver.findElement(pageWithPhoto);
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("window.scrollBy(0,500)");
+        wait.until(ExpectedConditions.elementToBeClickable(clickSaveBtn));
+            click(clickSaveBtn);
         return this;
     }
 }

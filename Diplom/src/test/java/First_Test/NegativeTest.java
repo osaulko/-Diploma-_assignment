@@ -29,16 +29,16 @@ public class NegativeTest extends BaseTest {
                .clickFind()
                .VerifyBadData();
     }
-    @Test  (priority = 2)
-    public void negativeTestTwo (){
-         new DataExceedingAllowable()
-                 .clickAccount()
-                 .clickEditProfile()
+//    @Test  (priority = 2)
+//    public void negativeTestTwo (){
+//         new DataExceedingAllowable()
+//                 .clickAccount()
+//                 .clickEditProfile()
 //                 .enterLimit39()
 //                 .verifyLimitValuesNormal()
 //                 .enterLimit40()
 //                 .verifyLimitValuesNormal()
-                 .enterLimit41()
-                 .verifyLimitValues();
-    }
+//                 .enterLimit41()
+//                 .verifyLimitValues();
+//    }
 }
