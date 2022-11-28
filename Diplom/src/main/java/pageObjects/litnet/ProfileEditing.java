@@ -21,4 +21,5 @@ public class ProfileEditing extends BasePage {
             click(clickSaveBtn);
         return this;
     }
+
 }

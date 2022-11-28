@@ -48,7 +48,6 @@ public class RemoveEssence extends BasePage {
         Assert.assertEquals(getText(title), "В библиотеке пока пусто");
         return this;
     }
-
     public RemoveEssence scrollLibrary(){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement Element = driver.findElement(move);

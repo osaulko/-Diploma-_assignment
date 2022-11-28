@@ -35,7 +35,6 @@ public class DataExceedingAllowable extends BasePage {
         enter(personalSite , "12345678901234567890123456789012345678901");
         return this;
     }
-
     public DataExceedingAllowable verifyLimitValues(){
         Assert.assertEquals(getText(verifyLimitValues),"Значение «Личный сайт» должно содержать максимум 40 символов.");
         return this;

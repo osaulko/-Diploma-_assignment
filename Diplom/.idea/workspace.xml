@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeeefbcb-2c1d-454e-a5b8-a6b972a5f156" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Load_File.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Load_File.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/DataExceedingAllowable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/DataExceedingAllowable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/ProfileEditing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/ProfileEditing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/litnet.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/litnet.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/First_Test/NegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/First_Test/NegativeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/First_Test/PositiveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/First_Test/PositiveTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/litnet.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/litnet.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/First_Test/PositiveTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/First_Test/PositiveTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="eeeefbcb-2c1d-454e-a5b8-a6b972a5f156" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -13,7 +13,6 @@ public class LoginPage extends BasePage {
         enter(this.username, properties.getProperty("email"));
         return this;
     }
-
     public LoginPage enterPassword() {
         enter(this.password, properties.getProperty("password"));
         return this;

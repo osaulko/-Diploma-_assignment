@@ -20,7 +20,6 @@ public class PositiveTests extends BaseTest {
                 .enterPassword()
                 .clickLogin();
     }
-
     @Test (priority = 1)
     public void positiveTestTwo (){
         new PopUpWindow()
