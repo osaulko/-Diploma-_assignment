@@ -20,6 +20,7 @@ public class PositiveTests extends BaseTest {
                 .enterPassword()
                 .clickLogin();
     }
+
     @Test (priority = 1)
     public void positiveTestTwo (){
         new PopUpWindow()
@@ -52,5 +53,13 @@ public class PositiveTests extends BaseTest {
                 .clickEditProfile();
         new ProfileEditing()
                 .clickChangePhotoBtn();
+    }
+
+    @Test(priority = 5)
+    public void positiveTestFive(){
+        new ProfileEditing()
+                .clickAddRomance();
+        new AddNewRomance()
+                .checkDialogMassage();
     }
 }

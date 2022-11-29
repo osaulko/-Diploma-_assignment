@@ -11,14 +11,19 @@ public class ProfileEditing extends BasePage {
     private final By loadPhoto = By.id("avatar-js-upload-btn");
     private final By pageWithPhoto = By.cssSelector("#avatar-image-modal > div > div");
     private final By clickSaveBtn = By.id("avatar-submit-button");
+    private final By addRomance = By.linkText("Добавить роман");
 
     public ProfileEditing clickChangePhotoBtn(){
-        driver.findElement(loadPhoto).sendKeys("C:\\Users\\hugo\\Desktop\\проекты\\Diplom\\Diplom\\src\\Load_File.jpg");//Переделаю через проперти
+        driver.findElement(loadPhoto).sendKeys("C:\\Users\\hugo\\Desktop\\проекты\\Diplom\\Diplom\\src\\Load_File.jpg");
         driver.findElement(pageWithPhoto);
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("window.scrollBy(0,500)");
         wait.until(ExpectedConditions.elementToBeClickable(clickSaveBtn));
             click(clickSaveBtn);
+        return this;
+    }
+    public ProfileEditing clickAddRomance(){
+        click(addRomance);
         return this;
     }
 
