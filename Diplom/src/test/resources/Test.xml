@@ -6,7 +6,6 @@
 
     <test name="Create and remove test">
         <classes>
-<!--            <class name="First_Test.test"></class>-->
             <class name="First_Test.PositiveTests"/>
 <!--            <class name="First_Test.NegativeTest"/>-->
         </classes>
