@@ -48,7 +48,7 @@ public class PositiveTests extends BaseTest {
     }
 
     @Test (priority = 4)
-    public void testSix(){
+    public void positiveTestSix(){
         new RemoveEssence()
                 .clickEditProfile();
         new ProfileEditing()

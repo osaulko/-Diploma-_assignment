@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeeefbcb-2c1d-454e-a5b8-a6b972a5f156" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/AddNewRomance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Load_File.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Image/Load_File.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/ProfileEditing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/ProfileEditing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Load_File.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Load_File.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/First_Test/PositiveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/First_Test/PositiveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/litnet.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/litnet.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +59,11 @@
       <recent name="C:\Users\hugo\Desktop\проекты\Diplom\Diplom\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hugo\Desktop\проекты\Diplom\Diplom\src\main\resources" />
-      <recent name="C:\Users\hugo\Desktop\проекты\Diplom\Diplom\src" />
-      <recent name="C:\Users\hugo\Desktop\проекты\Diplom\Diplom\src\test\java" />
+      <recent name="C:\Users\hugo\Desktop\проекты\Diplom\Diplom\Image" />
       <recent name="C:\Users\hugo\Desktop\проекты\Diplom\Diplom" />
+      <recent name="C:\Users\hugo\Desktop\проекты\Diplom\Diplom\src" />
+      <recent name="C:\Users\hugo\Desktop\проекты\Diplom\Diplom\src\main\resources" />
+      <recent name="C:\Users\hugo\Desktop\проекты\Diplom\Diplom\src\test\java" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.PositiveTests ">

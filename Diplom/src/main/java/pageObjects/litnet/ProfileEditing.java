@@ -4,7 +4,10 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import pageObjects.baseObjects.BasePage;
 
-import java.util.concurrent.TimeUnit;
+import java.io.File;
+
+import static java.io.File.pathSeparator;
+import static java.io.File.separator;
 
 public class ProfileEditing extends BasePage {
 
@@ -13,11 +16,15 @@ public class ProfileEditing extends BasePage {
     private final By clickSaveBtn = By.id("avatar-submit-button");
     private final By addRomance = By.linkText("Добавить роман");
 
+    public ProfileEditing propertyPath (){
+        System.getProperty( "user.dir" + "Image/Load_File.jpg");
+        return this;
+    }
+
     public ProfileEditing clickChangePhotoBtn(){
-        driver.findElement(loadPhoto).sendKeys("C:\\Users\\hugo\\Desktop\\проекты\\Diplom\\Diplom\\src\\Load_File.jpg");
+        String absolutePath = new File("Image/Load_File.jpg").getAbsolutePath();
+        driver.findElement(loadPhoto).sendKeys(absolutePath);
         driver.findElement(pageWithPhoto);
-            JavascriptExecutor js = (JavascriptExecutor) driver;
-            js.executeScript("window.scrollBy(0,500)");
         wait.until(ExpectedConditions.elementToBeClickable(clickSaveBtn));
             click(clickSaveBtn);
         return this;
@@ -26,5 +33,4 @@ public class ProfileEditing extends BasePage {
         click(addRomance);
         return this;
     }
-
 }
