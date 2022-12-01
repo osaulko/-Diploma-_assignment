@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeeefbcb-2c1d-454e-a5b8-a6b972a5f156" name="Changes" comment="" />
+    <list default="true" id="eeeefbcb-2c1d-454e-a5b8-a6b972a5f156" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/CreateEssence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/CreateEssence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/DataExceedingAllowable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/DataExceedingAllowable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/ProfileEditing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/RemoveEssence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/litnet/RemoveEssence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/First_Test/PositiveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/First_Test/PositiveTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

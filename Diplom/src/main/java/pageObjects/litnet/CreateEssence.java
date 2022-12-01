@@ -7,11 +7,9 @@ import pageObjects.baseObjects.BasePage;
 public class CreateEssence extends BasePage {
 
 
-    private final By fantasyGenre = By.cssSelector("body > div.wrap > div > div > div.content > div.white-container > div:nth-child(1) > div.block.b-categories > div > div > ul > li:nth-child(1) > a");
+    //private final By fantasyGenre = By.cssSelector("[class=container-inner] a[href$='fentezi']");
 
     private final By bookOne = By.linkText("Нищенка в Королевской Академии магии. Зимняя практика 2");
-
-    private final By litnetBtn = By.xpath("/html/body/div[2]/div/div/div[1]/div");
 
     private final By addInLibrary = By.cssSelector("[class=lib-btn]>[class=to_lib]");
 
@@ -20,12 +18,13 @@ public class CreateEssence extends BasePage {
     private final By title = By.cssSelector("[class=book-title]");
 
 
-    public CreateEssence clickFantasyGenre (){
-        click(fantasyGenre);
-        return this;
+    public By getType(String type) {
+        return By.cssSelector("[class=container-inner] a[href$='" + type + "']");
     }
-    public CreateEssence clickLitnetBtn(){
-        click(litnetBtn);
+
+
+    public CreateEssence clickBookType(String type) {
+        click(getType(type));
         return this;
     }
 
@@ -43,9 +42,8 @@ public class CreateEssence extends BasePage {
         return this;
     }
 
-    public CreateEssence VerifyLibrary (){
+    public CreateEssence verifyLibrary (){
         Assert.assertEquals(getText(title), "Нищенка в Королевской Академии магии. Зимняя практика 2");
         return this;
     }
-
 }

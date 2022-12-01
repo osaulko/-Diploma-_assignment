@@ -31,33 +31,33 @@ public class PositiveTests extends BaseTest {
     @Test (priority = 2)
     public void positiveTestThree (){
         new CreateEssence()
-                .clickFantasyGenre()
+                .clickBookType("fentezi")
                 .clickBookOne()
                 .clickAddInLibrary()
                 .clickMyLibrary()
-                .VerifyLibrary();
+                .verifyLibrary();
     }
 
     @Test (priority = 3)
     public void positiveTestFour (){
         new RemoveEssence()
-                .scrollLibrary()
+                .scrollToCenter()
                 .clickMove()
                 .clickRemoveFromLibrary()
-                .VerifyLibrary();
+                .verifyLibrary();
     }
 
     @Test (priority = 4)
     public void positiveTestSix(){
-        new RemoveEssence()
+        new DataExceedingAllowable()
                 .clickEditProfile();
-        new ProfileEditing()
+        new DataExceedingAllowable()
                 .clickChangePhotoBtn();
     }
 
     @Test(priority = 5)
     public void positiveTestFive(){
-        new ProfileEditing()
+        new DataExceedingAllowable()
                 .clickAddRomance();
         new AddNewRomance()
                 .checkDialogMassage();
