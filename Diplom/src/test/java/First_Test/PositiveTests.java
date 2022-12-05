@@ -21,14 +21,14 @@ public class PositiveTests extends BaseTest {
                 .clickLogin();
     }
 
-    @Test (priority = 1)
+    @Test (priority = 1 , description = "Тест на проверку всплывающего сообщения")
     public void positiveTestTwo (){
         new PopUpWindow()
                 .clickBell()
                 .checkTableIsDisplayed2();
     }
 
-    @Test (priority = 2)
+    @Test (priority = 2 , description = "Тест на создание сущности")
     public void positiveTestThree (){
         new CreateEssence()
                 .clickBookType("fentezi")
@@ -38,7 +38,7 @@ public class PositiveTests extends BaseTest {
                 .verifyLibrary();
     }
 
-    @Test (priority = 3)
+    @Test (priority = 3 , description = "Tест на удаление сущности")
     public void positiveTestFour (){
         new RemoveEssence()
                 .scrollToCenter()
@@ -47,7 +47,7 @@ public class PositiveTests extends BaseTest {
                 .verifyLibrary();
     }
 
-    @Test (priority = 4)
+    @Test (priority = 4 , description ="Tест на загрузку файла")
     public void positiveTestSix(){
         new DataExceedingAllowable()
                 .clickEditProfile();
@@ -55,7 +55,7 @@ public class PositiveTests extends BaseTest {
                 .clickChangePhotoBtn();
     }
 
-    @Test  (priority = 5)
+    @Test  (priority = 5 , description = "Tест на проверку поля для ввода на граничные значения")
     public void positiveTestOne () {
         new DataExceedingAllowable()
                 .clickAccount()
@@ -66,7 +66,7 @@ public class PositiveTests extends BaseTest {
                 .verifyLimitValuesNormal();
     }
 
-    @Test (priority = 6)
+    @Test (priority = 6 , description = "Tест отображения диалогового окна")
     public void positiveTestFive(){
         new DataExceedingAllowable()
                 .clickAddRomance();

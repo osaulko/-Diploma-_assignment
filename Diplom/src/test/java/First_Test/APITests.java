@@ -42,14 +42,10 @@ public class APITests {
     }
 
     @Test(description = "Тест на ввод логина и пароля в окне входа ")
-    public void postTestFour(){
-        Response response = given().get(baseURI + "/user.api/login?login=JustName&password=JustPassword");
-//        response.then().assertThat().statusCode(428);
-
-//        Response response = given().header("Content-Type", "application/json").body(getJsonData("informationUser")).post("/login");
-        response.then().assertThat().statusCode(405);
-        Assert.assertEquals(response.then().extract().response().jsonPath().getString("login"), "JustName");
-//        Assert.assertEquals(response.then().extract().response().jsonPath().getString("password"), "JustPassword");
+    public void getTestFour() {
+        Response response = given().header("Content-Type", "application/json").body(getJsonData("informationList")).post("/user.api/login");
+        response.then().assertThat().statusCode(422);
+        Assert.assertEquals(response.then().extract().response().jsonPath().getString("message"), "Validation failed");
     }
 
     public String getJsonData(String filename) {
