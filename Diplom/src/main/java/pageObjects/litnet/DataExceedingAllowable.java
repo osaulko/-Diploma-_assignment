@@ -21,7 +21,7 @@ public class DataExceedingAllowable extends BasePage {
     private final By clickGoodData = By.cssSelector("[class='close']");
 
     private final By verifyLimitValues = By.cssSelector("[class='col-xs-4']>[class='form-group field-editprofileform-site has-error']>[class='help-block']");
-//Сократить локатор!
+
     private final By loadPhoto = By.id("avatar-js-upload-btn");
 
     private final By pageWithPhoto = By.cssSelector("#avatar-image-modal > div > div");
@@ -51,16 +51,8 @@ public class DataExceedingAllowable extends BasePage {
         click(editProfile);
         return this;
     }
-    public DataExceedingAllowable enterLimit39(){
-        enter(personalSite , "123456789012345678901234567890123456789");
-        return this;
-    }
-    public DataExceedingAllowable enterLimit40(){
-        enter(personalSite , "1234567890123456789012345678901234567890");
-        return this;
-    }
-    public DataExceedingAllowable enterLimit41(){
-        enter(personalSite , "12345678901234567890123456789012345678901");
+    public DataExceedingAllowable enterLimit(String enterData){
+        enter(personalSite, enterData);
         return this;
     }
     public DataExceedingAllowable verifyLimitValues(){
