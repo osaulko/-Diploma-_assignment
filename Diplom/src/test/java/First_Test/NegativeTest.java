@@ -36,10 +36,6 @@ public class NegativeTest extends BaseTest {
         new DataExceedingAllowable()
                 .clickAccount()
                 .clickEditProfile()
-                .enterLimit("123456789012345678901234567890123456789")
-                .verifyLimitValuesNormal()
-                .enterLimit("1234567890123456789012345678901234567890")
-                .verifyLimitValuesNormal()
                 .enterLimit("12345678901234567890123456789012345678901")
                 .verifyLimitValues();
     }

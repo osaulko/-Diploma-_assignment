@@ -55,7 +55,18 @@ public class PositiveTests extends BaseTest {
                 .clickChangePhotoBtn();
     }
 
-    @Test(priority = 5)
+    @Test  (priority = 5)
+    public void positiveTestOne () {
+        new DataExceedingAllowable()
+                .clickAccount()
+                .clickEditProfile()
+                .enterLimit("123456789012345678901234567890123456789")
+                .verifyLimitValuesNormal()
+                .enterLimit("1234567890123456789012345678901234567890")
+                .verifyLimitValuesNormal();
+    }
+
+    @Test (priority = 6)
     public void positiveTestFive(){
         new DataExceedingAllowable()
                 .clickAddRomance();
