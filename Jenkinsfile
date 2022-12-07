@@ -3,19 +3,20 @@ pipeline {
     stages{
          stage('Build'){
             steps{
-                bat 'mvn clean install -DskipTests=true'
+                powershell 'mvn clean install -DskipTests'
             }
         }
         stage('Run'){
             steps{
-                bat 'mvn clean test -Dconfig=\'%CONFIG%\' -DsuiteXml=\'%SUITE%\''
+                powershell 'mvn clean test -Dconfig=\'%CONFIG%\' -DsuiteXml=\'%SUITE%\''
             }
         }
     }
     post {
         always{
-
-            allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+            archiveArtifacts artifacts: 'target/logs/*', allowEmptyArchive: true
+            allure includeProperties: false, jdk: '', results: [[path: 'target/allure-results']]
         }
     }
 }
+
